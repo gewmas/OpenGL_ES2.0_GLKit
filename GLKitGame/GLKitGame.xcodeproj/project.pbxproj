@@ -31,6 +31,7 @@
 		4C2E77C71826F1060072F6F0 /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E77C01826F1060072F6F0 /* YouWin.png */; };
 		4C2E77C81826F1060072F6F0 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E77C11826F1060072F6F0 /* background-music-aac.caf */; };
 		4C2E77C91826F1060072F6F0 /* pew-pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E77C21826F1060072F6F0 /* pew-pew.wav */; };
+		4C2E77CD1826F1980072F6F0 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E77CC1826F1980072F6F0 /* Sprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		4C2E77C01826F1060072F6F0 /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
 		4C2E77C11826F1060072F6F0 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		4C2E77C21826F1060072F6F0 /* pew-pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pew-pew.wav"; sourceTree = "<group>"; };
+		4C2E77CB1826F1980072F6F0 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		4C2E77CC1826F1980072F6F0 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				4C2E77B71826ED7C0072F6F0 /* MainStoryboard.storyboard */,
 				4C2E77B91826EED40072F6F0 /* GLKitGameController.h */,
 				4C2E77BA1826EED40072F6F0 /* GLKitGameController.m */,
+				4C2E77CB1826F1980072F6F0 /* Sprite.h */,
+				4C2E77CC1826F1980072F6F0 /* Sprite.m */,
 			);
 			path = GLKitGame;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			files = (
 				4C2E77931826EBA70072F6F0 /* AppDelegate.m in Sources */,
 				4C2E778F1826EBA70072F6F0 /* main.m in Sources */,
+				4C2E77CD1826F1980072F6F0 /* Sprite.m in Sources */,
 				4C2E77BB1826EED40072F6F0 /* GLKitGameController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
